@@ -1,0 +1,266 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    background-color: #068005;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    padding: 0px;
+    margin: 0px;;
+    color:#068005;
+}
+
+h1{
+    font-size: 48px;
+    color:#068005;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 28px;
+    color:#068005;
+}
+
+.back-2-home{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 15px #00000070;
+    border-radius: 50px;
+    padding: 7px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+.back-2-home img{
+    width: 100%;
+}
+
+#main-w{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.main-w{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 2px 2px 15px #00000097;
+    border-radius: 10px;
+}
+
+/*hero section*/
+#hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #06800550;
+    outline: 5px solid #00000010;
+    box-shadow: 2px 2px 15px #00000050;
+}
+
+.iconify-icon{
+    z-index: 5;
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.dryer-description td{
+    outline: 1px solid lightgray;
+    padding: 5px;
+}
+
+.dryer-description th{
+    background-color:#068005;
+    color: white;
+    padding: 7px;
+}
+
+.dd-side{
+    background-color: #068005;
+    color: white;
+    padding: 7px;
+}
+.dryer-description tr{
+    background-color:azure;
+}
+
+.solar-soln{
+    margin-top: 10px;
+}
+
+.solar-soln td{
+    outline: 1px solid black;
+    padding: 8px;
+}
+
+.solar-soln th{
+    outline: 1px solid black;
+    padding: 8px;
+}
+
+/*header margin top*/
+.m-top{
+    margin-top: 50px;
+}
+
+.d-advtge li{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+
+.d-advtge li::before{
+    content: "";
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+
+    background: url("https://api.iconify.design/mdi/check-circle.svg?color=%232ecc71") no-repeat center;
+    background-size: contain;
+}
+
+
+/*RESPONSIVE SYLINGS*/
+
+@media (max-width: 767px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h1{
+        font-size: 40px;
+        color:#068005;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 28px;
+        color:#068005;
+    }
+
+    #main-w{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;    
+    }
+
+    #solar-soln{
+        width: auto;
+        overflow-x: scroll;
+        padding: 0px 0px 12px;
+    }
+
+    #hero {
+        min-height: 70vh;
+    }
+
+    #hero-img {
+        background-position: center top;
+    }
+
+    #dryer-description{
+        width: auto;
+        overflow-x: scroll;
+        padding: 0px 0px 12px;
+    }
+
+    #solar-soln{
+        width: auto;
+        overflow-x: scroll;
+        padding: 12px;
+    }
+
+    .d-advtge{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+/*tablet screens*/
+@media(min-width: 768px) and (max-width: 1080px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h1{
+        font-size: 40px;
+        color:#068005;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 28px;
+        color:#068005;
+    }
+
+    #main-w{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;    
+    }
+
+    #solar-soln{
+        width: auto;
+        overflow-x: scroll;
+        padding: 0px 0px 12px;
+    }
+
+    #hero {
+        min-height: 70vh;
+    }
+
+    #hero-img {
+        background-position: center top;
+    }
+
+    #dryer-description{
+        width: auto;
+        overflow-x: scroll;
+        padding: 0px 0px 12px;
+    }
+
+    #solar-soln{
+        width: auto;
+        overflow-x: scroll;
+        padding: 12px;
+    }
+
+    .d-advtge{
+        padding: 0px;
+        margin: 0px;
+    }
+}

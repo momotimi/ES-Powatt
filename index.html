@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/svg" href="./ES POWATT LOGO/Powatt.svg">
+        <title>ES POWATT</title>
+
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <header class="top-navbar">
+            <div class="header-logo">
+                <a href="index.html"><img src="./ES POWATT LOGO/espowatt logo.svg" alt="ES POWATT logo"></a>
+            </div>
+
+            <nav id="top-navlinks">
+                <div class="mobile-navicon">
+                    <div class="mobile-open">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="mobile-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+
+                <!--normal navlink-->
+                <ul class="ul-navlinks-normal">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="#" class="nav-link" data-target=".about-us-section"><li>About Us</li></a>
+                    <a href="#" class="nav-link" data-target=".services-section"><li>Services</li></a>
+                    <a href="#" class="nav-link" data-target=".products-section"><li>Product</li></a>
+                    <a href="#" class="nav-link" data-target=".testimonial-section"><li>Client Reviews</li></a>
+                    <a href="#" class="nav-link" data-target=".footer"><li>Contact Us</li></a>                        
+                </ul>
+
+                <!--responsive navlink-->
+                <ul class="ul-navlinks">
+                    <a href="/"><li>Home</li></a>
+                    <a href="#" class="nav-link" data-target=".about-us-section"><li>About Us</li></a>
+                    <a href="#" class="nav-link" data-target=".services-section"><li>Services</li></a>
+                    <a href="#" class="nav-link" data-target=".products-section"><li>Product</li></a>
+                    <a href="#" class="nav-link" data-target=".testimonial-section"><li>Client Reviews</li></a>
+                    <a href="#" class="nav-link" data-target=".footer"><li>Contact Us</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="hero-section">
+
+            <div class="hero-heading">
+                <h1 class="line1">Creating a Sustainable Future with</h1>
+                <h1 class="line2">Solar Renewable Energy Solutions</h1>
+            </div>
+
+            <div class="mobile-res">
+                <h1>
+                    Creating a Sustainable Future with Solar Renewable Energy Solutions
+                </h1>
+            </div>
+
+        </section>
+
+        <!--main content start-->
+        <div class="main-div">
+            <section class="about-us-section reveal">
+                <div class="aboutUS-btn"><h2>About Us</h2></div>
+
+                <div class="aboutUs-content-wrapper">
+                    <div class="auc-image">
+                        <img src="assets/about us image.jpg" alt="about us image">
+                    </div>
+
+                    <div class="aboutUS-content">
+                        <h3>Our Story</h3>
+                        <div class="paragraph-wrap">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore corporis unde quo soluta animi quasi cumque inventore ipsa deserunt aliquam odit, nihil ratione nesciunt molestias autem iure error alias.
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsaquae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequunturmagni dolores 
+                                eos qui ratione voluptatem sequi nesciunt.
+                            </p>
+                            <p class="hidden-p">
+                                Neque porro quisquam est, qui dolorem ipsum quia do
+                                lor sit amet, consectetur, adipisci velit, sed quia non numquam eius 
+                                modi tempora inciduntut labore et dolore magnamaliquam quaerat 
+                                voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem 
+                                ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+                            </p>
+                        </div>
+                        <div class="paragraph-toggle-btn-div">
+                            <div class="p-show-more">Show More</div>
+                            <div class="p-hide">Hide</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="services-section reveal">
+
+                <div class="aboutUS-btn"><h2>Our Services</h2></div>
+
+                <div class="service-content-wrap">
+                    <h3>Our Solar Solutions</h3>
+
+                    <div class="a-wrap">
+                        <div class="scroll-services"><!--services animation-->
+                            <div class="a-card">
+                                <div class="a-card-image"><img src="assets/our services1.jpg" alt="services image"></div>
+                                <div class="service-heading">Commercial Solar Solution</div>
+                                <div class="ratings-wrap">                                    
+                                    <div class="ratings">
+                                        <div class="customer-r"><h4>Customer Rating</h4></div>
+                                        <iconify-icon icon="mdi:star"></iconify-icon>
+                                    </div>
+                                    <p>Our system is serving well. Recently, we used it for good 3 days without utility supply and nothing happened despite the fact that we open 8am and close by 9pm. We will need to replicate this elsewhere soon</p>
+                                </div>
+                            </div>
+
+                            <div class="a-card">
+                                <div class="a-card-image"><img src="assets/our services2.png" alt="services image"></div>
+                                <div class="service-heading">Commercial Solar Solution</div>
+                                <div class="ratings-wrap">                                   
+                                    <div class="ratings">
+                                         <div class="customer-r"><h4>Customer Rating</h4></div>
+                                        <iconify-icon icon="mdi:star"></iconify-icon>
+                                    </div>
+                                    <p>Our solar system installed by Israel and his team has saved us a lot of money and I am pleased with the results. We no longer have to use the generator</p>
+                                </div>
+                            </div>
+
+                            <div class="a-card">
+                                <div class="a-card-image"><img src="assets/our services2.png" alt="services image"></div>
+                                <div class="service-heading">Commercial Solar Solution</div>
+                                <div class="ratings-wrap">
+                                    <div class="ratings">
+                                        <div class="customer-r"><h4>Customer Rating</h4></div>
+                                        <iconify-icon icon="mdi:star"></iconify-icon>
+                                    </div>
+                                    <p>Get stable, healthy, and noiseless electricity that meets the energy and comfort needs of your home, compound, or housing estates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="products-section reveal">
+
+                <div class="aboutUS-btn"><h2>Our Products</h2></div>
+
+                <div class="product-main-wrap">
+                    <div class="product-content-container">
+                        <div class="espowatt-product"><img src="dryerpictures/dryer 1.png" alt="ES Powatt Marchinery"></div>
+                    </div>
+                    <div class="content">
+                        <h4>"Dry Smarter. Earn Better. Powered by ES POWATT."</h4>
+                        <p>
+                            In Nigeria, cocoa farming remains a major source of livelihood for thousands of
+                            smallholder farmers. However, one of the greatest challenges they face is postharvest
+                            losses due to poor and unreliable drying methods.
+                            Traditional sun drying, though common, exposes the cocoa beans to
+                            unpredictable weather conditions, contamination, and theft. These result in:
+                        </p>
+                    </div>
+                    
+                </div>
+                <a href="./pages/products.html" target="_blank"><button style="cursor: pointer; color: #FFFF8D; background-color: #068005; padding: 10px 50px; width: fit-content; border: none; box-shadow: 2px 2px 15px #00000070; border-radius: 5px;" class="know-more-btn">Know More</button></a>
+
+            </section>
+
+            <section class="benefits-section reveal">
+
+                <div class="aboutUS-btn"><h2>Benefits</h2></div>
+
+                <div class="benefits-main-wrap">
+
+                    <h3>Why Should You use Solar</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+
+                            <div class="b-image"><img src="assets/3d-render-robot-holding-solar-panel-grassy-glboe.png" alt="benefits"></div>
+                            <h4>Environmental Benefits</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident magnam id officiis eaque quod ex voluptates voluptatibus ea voluptate, minima magni, ratione vitae rerum odio architecto sequi eum numquam!</p>
+
+                        </div>
+
+                        <div class="benefit-card">
+
+                            <div class="b-image"><img src="assets/3d-render-robot-holding-solar-panel-grassy-glboe.png" alt="benefits"></div>
+                            <h4>Financial Benefits</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident magnam id officiis eaque quod ex voluptates voluptatibus ea voluptate, minima magni, ratione vitae rerum odio architecto sequi eum numquam!</p>
+
+                        </div>
+
+                        <div class="benefit-card">
+
+                            <div class="b-image"><img src="assets/3d-render-robot-holding-solar-panel-grassy-glboe.png" alt="benefits"></div>
+                            <h4>Reliability</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident magnam id officiis eaque quod ex voluptates voluptatibus ea voluptate, minima magni, ratione vitae rerum odio architecto sequi eum numquam!</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="testimonial-section reveal">
+                <div class="aboutUS-btn"><h2>Testimonial</h2></div>
+
+                <div class="testimonial-main-wrap">
+                    <h3>Feedback from our Customers</h3>
+                    <div class="testimonial-grid">
+
+                        <div class="testimonial-card t-card1">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>Kate Ayobami</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Lekki, Lagos State</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t-card2">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>Philip Muse</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Makola, Oyo State</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t-card3">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>John Smith</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Ikeja, Lagos State</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t-card4">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>Demi Lola</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Garki, Abuja</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--testimonial grid responsive display-->
+                    <div class="testimonial-grid-m">
+
+                        <div class="testimonial-card t-card1-m">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>Kate Ayobami</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Lekki, Lagos State</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t-card2-m">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>Philip Muse</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Makola, Oyo State</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t-card3-m">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>John Smith</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Ikeja, Lagos State</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t-card4-m">
+                            <div class="t-image"><img src="" alt=""></div>
+                            <div class="t-card-contents-w">
+                                <div class="tccw-details">
+                                    <h4>Demi Lola</h4>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium corrupti delectus ab asperiores aspernatur fuga doloribus aliquam quae? Adipisci esse dolor accusantium unde sapiente ullam eum laboriosam magnam sed ducimus.</p>
+                                </div>
+                                <div class="t-card-c-location-w">
+                                    <iconify-icon icon="mdi:location"></iconify-icon>
+                                    <p>Garki, Abuja</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--main content end-->
+
+        <footer class="footer">
+            <div class="footer-title c-wrap">
+                <h3>Lorem ipsum dolor sit amet</h3>
+            </div>
+
+            <div class="f-quicklinks-grid c-wrap">
+
+                <div>
+                    <div class="footer-logo"><img src="./ES POWATT LOGO/espowatt logo.png" alt="ES Powatt logo"></div>
+                    <p>
+                        ES Powatt is a renewable energy and clean tech company offering sustainable solar solutions that are tailored to address pressing energy needs and deliver reliable 24/7 electricity to power various capacities of domestic appliances, office devices, and commercial equipment.
+                    </p>
+                    <h4>Social Links</h4>
+                    <div class="social-links">
+                        <a href="#"><iconify-icon icon="garden:twitter-fill-16"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="simple-line-icons:social-linkedin"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="ic:round-facebook"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="lucide:instagram"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="mdi:whatsapp"></iconify-icon></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <div>
+                        <a href="#"><div>About Us</div></a>
+                        <a href="#"><div>Services</div></a>
+                        <a href="#"><div>Contact Us</div></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>Contacts</h4>
+                    <div>
+                        <p>espowatt@gmail.com</p>
+                        <p>+234 705 1749 685</p>
+                        <p>+234 705 1749 685</p>
+                        <p>
+                            No 57, Ojuelegba Street, Oshodi, Lagos state.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <p>All rights reserved Copyright&copy; 2025</p>
+            </div>
+
+        </footer>
+
+        <script src="js/hero.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/scroll into view.js"></script>
+    </body>
+
+</html>
